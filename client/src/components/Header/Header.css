@@ -1,0 +1,10 @@
+.jumbotron{
+	text-align: center;
+	background-color: transparent !important;
+	
+	color: white; 
+}
+
+body{
+	background-image:url("./../../image/ny1.jpg");
+}
