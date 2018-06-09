@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const URL ='https://api.nytimes.com/svc/search/v2/articleSearch.json';
-const KEY = '7cb5c742e59843c1aacaa55d3c68de3f';
+const KEY = 'e167471ecd274f53962769e06c849f2b';
 
 export default {
 	getData(search){
