@@ -11,7 +11,7 @@ app.use(express.static("client/build"));
 app.use(routes);
 mongoose.Promise = global.Promise;
 mongoose.connect(
-	process.env.MONGODB_URI || "mongodb://heroku_472lc07x:cq2b68vd9su2fol9f0892kdf37@ds161426.mlab.com:61426/heroku_472lc07x",
+	process.env.MONGODB_URI || "mongodb://homework:homework1@ds153980.mlab.com:53980/heroku_cnfrkmsg",
 	{
 		useMongoClient: true
 	}
