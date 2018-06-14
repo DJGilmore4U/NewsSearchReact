@@ -14,6 +14,7 @@ const Saved = (props) => {
                 <a href={article.url} target="_blank" className="col-md-4"><img src={article.image} className="img-responsive" alt="thumbnail"/></a>
                 <div className="col-md-3">
                   <h4>Title: {article.title}</h4>
+                  <h5>Summary: {article.multimedia.snippet}</h5>
                 </div>
                 <div className="col-md-3">
                   <h4>Saved Date: {article.date}</h4>

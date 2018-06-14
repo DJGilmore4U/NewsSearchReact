@@ -3,7 +3,7 @@ import React from "react";
 const Input = (props) => {
 	return(
 		<div>
-			<h5>Input</h5>
+			<h5>Type Article Title or Key Words Here</h5>
 			 <input onChange={props.handleInputChange} type="text" className="form-control" value={props.search}></input>
 		</div>
 	 )
