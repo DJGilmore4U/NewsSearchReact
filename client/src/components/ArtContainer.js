@@ -21,6 +21,7 @@ class ArtContainer extends Component {
   loadArticles = () => {
     API.getSavedArticles().then((res) => {
       this.setState({savedArticles: res.data});
+      console.log(res);
     }).catch((err) => {
       console.log(err);
     });
