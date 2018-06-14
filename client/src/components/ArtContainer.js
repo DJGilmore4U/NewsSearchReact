@@ -35,8 +35,8 @@ class ArtContainer extends Component {
     });
   };
 
-  handleSaveButton = (title, url, date, image) => {
-    API.saveArticles({title, url, date, image}).then((res) => {
+  handleSaveButton = (title, summary, url, date, image) => {
+    API.saveArticles({title, summary, url, date, image}).then((res) => {
       this.loadArticles()
     }).catch((err) => {
       console.log(err);
