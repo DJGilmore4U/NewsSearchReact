@@ -15,10 +15,10 @@ const Results = (props) => {
 					<div key={article._id}>
 					 <div className='article-display row'>
 					  <a href={article.web_url} target='_blank' className='col-md-4'><img src={image} className='img-responsive' alt='thumbnail'/></a>
-					  <div className='col-md-3'>
+					  <div className='col-sm-2'>
 					   <h4>Title: {article.headline.main}</h4>
 					  </div>
-					  <div className='col-md-3'>
+					  <div className='col-sm-2'>
 					   <h4>Published: {article.pub_date}</h4>
 					  </div>
 					  <div className='col-md-3'>
