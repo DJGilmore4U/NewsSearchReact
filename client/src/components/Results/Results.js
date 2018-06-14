@@ -17,7 +17,7 @@ const Results = (props) => {
 					  <a href={article.web_url} target='_blank' className='col-md-4'><img src={image} className='img-responsive' alt='thumbnail'/></a>
 					  <div className='col-md-3'>
 					   <h4>Title: {article.headline.main}</h4>
-					   <h5>Summary: {article.multimedia.snippet}</h5>
+					   <h5>Summary: {article.snippet}</h5>
 					  </div>
 					  <div className='col-md-3'>
 					   <h4>Published: {article.pub_date}</h4>
