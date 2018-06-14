@@ -21,6 +21,9 @@ const Results = (props) => {
 					  <div className='col-md-3'>
 					   <h4>Published: {article.pub_date}</h4>
 					  </div>
+					  <div className='col-md-3'>
+					  <h4>Summary: {article.snippet}</h4>
+					  </div>
 					  <button onClick={() => props.handleSaveButton(article.headline.main, article.web_url, article.pub_date, image)} className='btn btn-sm btn-primary col-md-2'>save</button>
 					 </div>
 					 <hr/>
