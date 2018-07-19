@@ -4,7 +4,7 @@ const Saved = (props) => {
   return(
     <div className="card mb-3 container results-box">
       <div className="card-header">
-        <h4>Saved Articles</h4>
+        <h4>Collectively Saved Articles</h4>
       </div>
       <div className="card-body">
         {props.savedArticles.map((article) => {
@@ -18,12 +18,12 @@ const Saved = (props) => {
                 <div className="col-md-3">
                   <h4>Saved Date: {article.date}</h4>
                 </div>
-                <button onClick={() => props.deleteArticle(article._id)} className="btn btn-sm btn-danger col-md-2">delete</button>
+                <button onClick={() => props.deleteArticle(article._id)} className="btn btn-sm btn-danger col-md-2">Delete</button>
               </div>
               <hr/>
             </div>
           )
-        }) || <h4>loading...</h4>}
+        }) || <h4>Loading...</h4>}
       </div>
     </div>
   )

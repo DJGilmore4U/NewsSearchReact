@@ -11,6 +11,10 @@
 
 .btn{
 	padding: 20px;
+	background-color: #00A6EA;
+	color: black;
+	text-align: center;
+	font-weight: bolder;
 }
 
 input{

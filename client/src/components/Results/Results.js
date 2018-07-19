@@ -22,12 +22,12 @@ const Results = (props) => {
 					  <div className='col-md-3'>
 					   <h4>Published: {article.pub_date}</h4>
 					  </div>
-					  <button onClick={() => props.handleSaveButton(article.headline.main, article.web_url, article.pub_date, image)} className='btn btn-sm btn-primary col-md-2'>save</button>
+					  <button onClick={() => props.handleSaveButton(article.headline.main, article.web_url, article.pub_date, image)} className='btn btn-sm btn-primary col-md-2'>Save</button>
 					 </div>
 					 <hr/>
 					</div>
 				 )
-			}) || <h4>loading...</h4>}
+			}) || <h4>Loading...</h4>}
 			</div>
 		</div>
 		)	
